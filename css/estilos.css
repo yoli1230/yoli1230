@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to top, #e8198b2a 0%, #00000031 100%), url(../img/giphy.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.logo {
+    font-size: 30px;
+    margin-top: 20px;
+    color: #FFF;
+
+}
+.title{
+    position: absolute;
+    top: 20rem;
+    font-size: 7rem;
+    color:#fff;
+}
+
+.objetivos{
+    margin: 0 auto;
+    width: 90%;
+   display: flex;
+   gap: 3rem;
+  text-align: center;
+}
+.parrafo--{
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.nosotros p{
+    font-size: 28px;
+}
+
+.mision{
+    font-size: 3rem;
+}
+.parrafo--{
+    font-size: 28px;
+}
+
+.vision{
+    font-size: 3rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    position: relative;
+
+
+}
+
+.menu a {
+    display: inline-block;
+    margin: 0 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 0px;
+    padding: 0px 0px;
+}
+
+
+
+
+figure {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figcaption {
+    align-self: flex-end;
+}
+
+body {
+    font-size: 20px;
+}
+
+.logo img {
+    position: absolute;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    top: 0.8px;
+    border-radius: 0% 30% 0% 30%;
+
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.catalogo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*Card*/
+
+.card {
+    margin: 20px;
+    width: 20rem;
+    height: 30rem;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+}
+
+.card-bg {
+    background-image: url(../img/banana.jpg);
+}
+
+.card-bg1 {
+    background-image: url(../img/ensaladefrutas.jpg);
+}
+
+.card-bg2 {
+    background-image: url(../img/cereza.jpg);
+}
+.card-bg3 {
+    background-image: url(../img/yogurt.jpg);
+}
+.card-bg4 {
+    background-image: url(../img/pastel.webp);
+}
+.card-bg5 {
+    background-image: url(../img/coco.jpg);
+}
+
+/*Cards Servicios*/
+
+.servicio-card-bg1{
+    background-image:url(../img/cono\ t.avif);
+}
+.servicio-card-bg2{
+    background-image: url(../img/vasito\,h.jpg)
+}
+.servicio-card-bg3{
+    background-image: url(../img/Helado-de-vainilla-.jpg);
+}
+
+.servicio-card-bg4{
+    background-image: url(../img/pasas.jpg);
+}
+
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .4);
+    opacity: 0;
+    transition: .5s;
+    padding: 20px;
+}
+
+.cta,
+h2 {
+    color: #ffffffcc;
+    text-align: center;
+}
+
+.card:hover .content {
+    opacity: 1;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+
+    margin: 20px 0;
+}
+
+/*Servicio cards*/
+.descripcion{
+    display: flex;
+    width: 90%;
+    align-items: center;
+}
+.parrafo{
+    width: 50%;
+    font-size:30px;
+    color: black;
+}
+/*Nosotros*/
+.nosotros{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin: 3rem auto;
+}
+.nosotros__titulo{
+    color: #781C68;
+
+}
+/*contactos*/
+.contactos{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing :border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    margin: 3rem auto;
+} 
+.contenedor .form .form-header .form-title{
+    font-weight: normal;
+    font-family: sans-serif;
+    color : #ff851b;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.contenedor .form .form-header .form-title span{
+    color:  #fff;
+}
+
+.contenedor .form{
+background: #EAE3D2;
+width: 900%;
+max-width: 650px;
+margin: auto;
+padding: 5px 35px;
+margin-top: 30px;
+border-radius: 3px;
+}
+.contenedor .form .form-label{
+    display: block;
+    color: #000;
+    font-size: 1.2rem;
+    font-family: Roboto;
+    position: relative;
+    top: -.5rem;
+}
+
+.contenedor .form .form-input,.form-textarea{
+    background: rgba(0,0,0,.7);
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    color:  #fff;
+    font-family: Roboto;
+
+}
+.contenedor .form .form-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+.contenedor .form .btn-submit{
+    width: 100%;
+    font-family: Roboto;
+    outline: none;
+    background: #ff851b;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all ,5s ease;
+
+}
+.contenedor .form .btn-submit:hover{
+    background: #f29718;
+}
+.footer{
+    padding: 1rem;
+    text-align: center;
+    background-color:#3C4048;
+}
+.footer a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000;
+    transition: all .5s ease;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.fa-brands{
+    font-size: 3rem;
+}
+
+.footer .footer__link {
+    color: #FFF;
+}
